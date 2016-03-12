@@ -27,6 +27,10 @@
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs" />
   <project path="development" name="platform/development" groups="pdk-cw-fs" />
   <project path="device/common" name="device/common" groups="pdk-cw-fs" />
+  <project path="device/qcom/sepolicy" name="sonyxperiadev/device-qcom-sepolicy" groups="device" remote="gh" revision="l-mr1" />
+  <project path="device/sony/common" name="XperiaZProject/device_sony_common" groups="device" remote="gh" revision="master" />
+  <project path="device/sony/lagan" name="XperiaZProject/device_sony_lagan" groups="device" remote="gh" revision="master" />
+  <project path="device/sony/yuga" name="XperiaZProject/device_sony_yuga" groups="device" remote="gh" revision="master" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
   <project path="external/android-clat" name="platform/external/android-clat" groups="pdk-cw-fs" />
   <project path="external/ant-glob" name="platform/external/ant-glob" groups="pdk-cw-fs" />
@@ -264,7 +268,7 @@
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" />
   <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" groups="qcom,qcom_audio" />
   <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom" />
-  <project path="hardware/qcom/display" name="platform/hardware/qcom/display" groups="qcom,qcom_display" />
+  <project path="hardware/qcom/system/display" name="XperiaZProject/platform-hardware-qcom-display" groups="device" remote="gh" revision="master" />
   <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" groups="qcom,qcom_gps" />
   <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="qcom" />
   <project path="hardware/qcom/media" name="platform/hardware/qcom/media" groups="qcom" />
@@ -277,6 +281,7 @@
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="qcom" />
   <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" groups="qcom_wlan" />
   <project path="hardware/ril" name="platform/hardware/ril" groups="pdk" />
+  <project path="kernel/sony/yuga" name="XperiaZProject/yuga_aosp_kernel_lp" groups="device" remote="gh" revision="android-5.1.1" />
   <project path="libcore" name="platform/libcore" groups="pdk" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
   <project path="ndk" name="platform/ndk" />
@@ -383,5 +388,12 @@
   <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
+  <project path="vendor/qcom/opensource/dataservices" name="sonyxperiadev/vendor-qcom-opensource-dataservices" groups="device" remote="gh" revision="master" />
+  <project path="vendor/sony/system/thermanager" name="sonyxperiadev/thermanager" groups="device" remote="gh" revision="master" />
+  <project path="vendor/sony/system/mkqcdtbootimg" name="sonyxperiadev/mkqcdtbootimg" groups="device" remote="gh" revision="master" />
+  <project path="vendor/sony/system/macaddrsetup" name="sonyxperiadev/macaddrsetup" groups="device" remote="gh" revision="master" />
+  <project path="vendor/sony/system/timekeep" name="sonyxperiadev/timekeep" groups="device" remote="gh" revision="master" />
+  <project path="vendor/sony/system/dash" name="sonyxperiadev/DASH" groups="device" remote="gh" revision="master" />
+  <project path="vendor/sony" name="XperiaZProject/vendor_sony" groups="device" remote="gh" revision="master" />
 
 </manifest>
